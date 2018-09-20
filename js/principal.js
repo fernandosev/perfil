@@ -162,7 +162,7 @@ rolagemSuave = (e)=>{
 	let id = $(e.currentTarget).attr('href'),
 
 	//Pegas as coordenadas do elemento
-	let targetOffset = $(id).offset().top;
+	targetOffset = $(id).offset().top;
 
 	//Rola a pagina ate o elemento menos 120px para a nav não sobrepor o conteudo, com 500 milisegundos de duração
 	$('html, body').animate({ 
